@@ -7,6 +7,7 @@ export default defineConfig({
     port: 5173,
   },
   plugins: [react()],
+  base: "/soldador_service_app/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
